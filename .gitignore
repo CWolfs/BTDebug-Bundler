@@ -1,0 +1,14 @@
+*.sln
+*.csproj
+*.unityproj
+*.userprefs
+
+Library
+Cache
+Temp
+
+.vs
+obj
+.vscode
+
+Assets/AssetBundles
