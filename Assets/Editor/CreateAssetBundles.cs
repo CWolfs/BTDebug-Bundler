@@ -55,6 +55,6 @@ public class CreateAssetBundles {
     }
 
     static void SetObjectToAssetBundle(string path) {
-        AssetImporter.GetAtPath(path).SetAssetBundleNameAndVariant("debug", "");
+        AssetImporter.GetAtPath(path).SetAssetBundleNameAndVariant("btdebug-bundle", "");
     }
 }
