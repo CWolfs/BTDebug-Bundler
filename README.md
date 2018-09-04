@@ -6,6 +6,10 @@ The unity project for BTDebug asset bundling.
 
 The BTDebug mod requires asset bundles. This project is for bundling up those assets.
 
+## Special Thanks
+
+* [Süleyman Yasir KULA](https://github.com/yasirkula) - [Unity runtime inspector](https://github.com/yasirkula/UnityRuntimeInspector)
+
 ## Author
 
 Richard Griffiths (CWolf)
