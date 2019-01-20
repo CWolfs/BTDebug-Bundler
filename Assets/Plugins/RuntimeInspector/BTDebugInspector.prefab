@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 114725364717115908}
   - component: {fileID: 114558536212502058}
   - component: {fileID: 114912256281287522}
+  - component: {fileID: 114475833960478292}
   m_Layer: 5
   m_Name: BTDebugInspector
   m_TagString: Untagged
@@ -487,6 +488,19 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114475833960478292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1596075468066102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -361254327, guid: acf4a60b1db4f2e428f0a28eeaabc8ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlighterPrefab: {fileID: 1204580176328926, guid: b856a245b250dba41a35caec064d4e59,
+    type: 2}
 --- !u!114 &114480488796221450
 MonoBehaviour:
   m_ObjectHideFlags: 1
