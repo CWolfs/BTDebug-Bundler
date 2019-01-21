@@ -7,6 +7,12 @@ public class CreateAssetBundles {
     [MenuItem("Assets/Build Standalone AssetBundles")]
     static void BuildStandaloneAssetBundles() {
         BuildAssetBundles("Assets/AssetBundles/Standalone");
+        CopyToBattleTechDirectory();
+    }
+
+    static void CopyToBattleTechDirectory() {
+        File.Copy(@"Assets/AssetBundles/Standalone/btdebug-bundle", @"D:/Program Files (x86)/Steam/SteamApps/common/BATTLETECH/Mods/BTDebug/bundles/btdebug-bundle", true);
+        File.Copy(@"Assets/Plugins/BTDebug-Library.dll", @"D:/Program Files (x86)/Steam/SteamApps/common/BATTLETECH/Mods/BTDebug/bundles/BTDebug-Library.dll", true);
     }
       
     static void BuildAssetBundles(string path, BuildTarget platform=BuildTarget.StandaloneWindows) {
