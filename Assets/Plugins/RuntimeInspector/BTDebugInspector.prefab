@@ -501,6 +501,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlighterPrefab: {fileID: 1204580176328926, guid: b856a245b250dba41a35caec064d4e59,
     type: 2}
+  gameObjectHighlighterPrefab: {fileID: 1204580176328926, guid: f8b05d6ef0ba5d7469eda87b05dd83db,
+    type: 2}
 --- !u!114 &114480488796221450
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -609,7 +611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_skin: {fileID: 11400000, guid: b38b1cb4db852fe4ea114688dada27d0, type: 2}
   refreshInterval: 0
-  m_objectNamesRefreshInterval: 10
+  m_objectNamesRefreshInterval: 5
   poolCapacity: 32
   m_exposeUnityScenes: 1
   m_exposeDontDestroyOnLoadScene: 1
