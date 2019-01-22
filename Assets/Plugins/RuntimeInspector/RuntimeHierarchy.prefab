@@ -202,7 +202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_skin: {fileID: 11400000, guid: b38b1cb4db852fe4ea114688dada27d0, type: 2}
   refreshInterval: 0
-  m_objectNamesRefreshInterval: 10
+  m_objectNamesRefreshInterval: 5
   poolCapacity: 32
   m_exposeUnityScenes: 1
   m_exposeDontDestroyOnLoadScene: 1
