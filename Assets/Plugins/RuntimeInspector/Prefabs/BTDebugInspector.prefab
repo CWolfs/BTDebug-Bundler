@@ -1203,6 +1203,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   searchInput: {fileID: 114808331066762978}
   searchType: {fileID: 114027816809748704}
+  viewList: {fileID: 1712575878788730}
+  listItemPrefab: {fileID: 1302868246333818, guid: 756c2448af0f02a41810a5d54f4faa82,
+    type: 2}
 --- !u!114 &114092952413163988
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2694,7 +2697,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
+  m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
 --- !u!114 &114889030285737274
